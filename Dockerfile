@@ -13,4 +13,8 @@ FROM scratch
 COPY --from=builder /app/stat-binary /stat-binary
 COPY --from=builder /app/templates /templates
 
-CMD ["/stat-binary"] 
+<<<<<<< HEAD:dockerfile
+CMD ["/stat-binary"]
+=======
+CMD ["/stat-binary"]
+>>>>>>> ce968ee3a3310d16412d4775bf180b08cb308d45:Dockerfile
