@@ -3,7 +3,7 @@
 
 This project is a Go web application that generates random band names. The application code is located at the root of the repository.
 
-## Pre-requisites
+## Pre-requisites 
 
 Before you begin, ensure the following are set up:
 
