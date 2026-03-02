@@ -39,7 +39,7 @@ Your task is to create a multi-stage `Dockerfile` that builds and runs the Go ap
 A workflow file is provided at `.github/workflows/deploy.yml`. You need to:
 
 1. **Set the environment variables** in the workflow file:
-   - `ACCOUNT_ID` - your AWS account ID
+   - `ACCOUNT_ID` - your AWS account ID 
    - `REGION` - your AWS region (e.g., `us-east-1`)
    - `REPO_NAME` - your ECR repository name
 
