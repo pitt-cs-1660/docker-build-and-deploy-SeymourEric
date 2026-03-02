@@ -13,4 +13,4 @@ FROM scratch
 COPY --from=builder /app/stat-binary /stat-binary
 COPY --from=builder /app/templates /templates
 
-CMD ["/stat-binary"]
+CMD ["/stat-binary"] 
